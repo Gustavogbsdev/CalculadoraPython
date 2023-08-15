@@ -1,5 +1,3 @@
-# Importando uma biblioteca somente para fazer firula
-import time
 #Calculadora com while
 
 #Solicitar os números e operadores enquanto a condição for verdadeira
@@ -32,17 +30,7 @@ while True:
     if (operador not in operadores_permitidos) or (len(operador) > 1):
         print('Operador inválido, tente novamente. ')
         continue
-    
-#Frescurinha para ficar bonitinho o código
-    timer = 2
-    while timer > 0:
-        print('Estamos realizando a sua operação, aguarde alguns segundos.')
-        time.sleep(0.8)
-        print('Estamos realizando a sua operação, aguarde alguns segundos..')
-        time.sleep(0.8)
-        print('Estamos realizando a sua operação, aguarde alguns segundos...')
-        time.sleep(0.8)
-        timer = timer - 1
+print('Estamos realizando a sua operação, observe o resultado: ')
 
 #Estrutura condicional para mostrar na tela o resultado das operações
     if operador == '+':
