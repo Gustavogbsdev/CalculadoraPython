@@ -26,7 +26,7 @@ while True:
         print("Um, ou ambos números não são válidos. ")
         continue
     
-#Se o operador não estiver dentro de um dos operadores permitidos (linha 11), ou a quantidade de operadores digitados for maior que 1
+#Se o operador não estiver dentro de um dos operadores permitidos (linha 09), ou a quantidade de operadores digitados for maior que 1
     if (operador not in operadores_permitidos) or (len(operador) > 1):
         print('Operador inválido, tente novamente. ')
         continue
@@ -45,7 +45,7 @@ print('Estamos realizando a sua operação, observe o resultado: ')
     elif operador == '*':
         multiplicação = num_1_float * num_2_float
         print(f'O resultado da sua multiplicação é: {num_1_float} * {num_2_float} = {multiplicação}')
-#Se o usuário conseguir executar alguma calamidade para vir parar aqui, ele é muito incrível.
+#Se o usuário conseguir de alguma forma chegar no else, ele é incrivel.
     else:
         print('O que você está fazendo aqui? ')
         
